@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Click Count</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div id="header">
+        <h1>Ready To Count ... </h1>
+				<h1>Enter number of seconds below</h1>
+        <form id="counter-input" onsubmit="return false">
+            <input type="number" required id="seconds" onclick="clearInput()" maxlength="5" inputmode="numeric">
+						<button type="submit" onclick="startCounter()">Start Counter</button>
+        </form>
+        <div class="counter-container">
+            <div class="counter" id="digit-5">
+                <div class="top-div">0</div>
+                <div class="bottom-div">0</div>
+            </div>
+            <div class="counter" id="digit-4">
+                <div class="top-div">0</div>
+                <div class="bottom-div">0</div>
+            </div>
+            <div class="counter" id="digit-3">
+                <div class="top-div">0</div>
+                <div class="bottom-div">0</div>
+            </div>
+            <div class="counter" id="digit-2">
+                <div class="top-div">0</div>
+                <div class="bottom-div">0</div>
+            </div>
+            <div class="counter" id="digit-1">
+                <div class="top-div">0</div>
+                <div class="bottom-div">0</div>
+            </div>
+        </div>
+    </div>
+    </iframe>
+    <script src="script.js"></script>
+</body>
+</html><!DOCTYPE html>
