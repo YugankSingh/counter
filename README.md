@@ -1,8 +1,8 @@
 # counter
 
-A Counter from JS' Set-Interval
+A Timer from JS' Set-Interval
 
-[Go Play Your-Self](https://yuganksingh.github.io/counter/)
+[Checkout the Timer](https://yuganksingh.github.io/counter/)
 
 [![example GIF](./example.gif)](https://yuganksingh.github.io/counter/)
 
